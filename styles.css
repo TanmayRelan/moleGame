@@ -1,0 +1,35 @@
+body{
+	background-image: url("3.jpg");
+
+}
+.score{
+	text-align: center;
+}
+.score2{
+	text-align: center;
+}
+.time{
+	text-align: right;
+}
+.clock{
+	text-align: right;
+}
+.grid {
+	position:absolute;
+	left: 450px;
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+}
+
+.mole {
+	background-image: url("download.jpg");
+}
